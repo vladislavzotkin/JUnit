@@ -12,9 +12,11 @@ public class Calculator {
         return a * b;
     }
 
-    public int del(int a, int b) {
+    public int div(int a, int b) {
         return a / b;
     }
 
-
+    public int rem(int a, int b) {
+        return a % b;
+    }
 }
